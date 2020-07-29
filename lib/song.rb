@@ -12,5 +12,6 @@ class Song
 
   def Song.create
     @@all << Song.new
+    return Song.name
   end
 end
