@@ -12,6 +12,6 @@ class Song
 
   def self.create
     @@all << self.new
-    return @name
+    return self.name
   end
 end
