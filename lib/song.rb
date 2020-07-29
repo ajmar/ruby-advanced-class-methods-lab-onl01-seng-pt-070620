@@ -58,7 +58,7 @@ class Song
     name = rows[1].gsub(".mp3", "")
     song_match = Song.new
     song_match.name = name
-    song_match.artist_name = artist_name 
+    song_match.artist_name = artist_name
     song_match.save
     song_match
 end
